@@ -1,0 +1,66 @@
+.headers_sect {
+    margin-top: .5rem;
+    border: 2px solid red;
+}
+
+.contacts{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+.contacts_socials {
+    gap: 1rem;
+    display: flex;
+    padding: .5rem;
+}
+.phone_number{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    padding: .5rem;
+}
+ i{
+    display: grid;
+    place-content: center;
+    font-size: 1.3rem;
+}
+.contact {
+    display: flex;
+    flex-direction: row;
+    gap: .5rem;
+}
+
+.contact p{
+    font-size: 1rem;
+}
+.phone_number p{
+    display: grid;
+    place-content: center;
+    text-align: center;
+    display: flex;
+    gap: .5rem;
+}
+
+.navBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem;
+}
+.navLinks ul{
+   display: flex;
+   flex-direction: row;
+    gap: 2rem;
+}
+.navLinks ul li{
+    list-style: none;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+.navLinks ul li .link{
+    text-decoration: none;
+    color: black;
+}

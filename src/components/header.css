@@ -1,6 +1,6 @@
 .headers_sect {
     margin-top: .5rem;
-    border: 2px solid red;
+    border: 1px solid red;
 }
 
 .contacts{
@@ -63,4 +63,11 @@
 .navLinks ul li .link{
     text-decoration: none;
     color: black;
+}
+
+.title h1{
+    font-size: 2rem;
+    text-align: center;
+    width: 100%;
+
 }

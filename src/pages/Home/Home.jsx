@@ -1,8 +1,13 @@
 import './home.css'
-import Header from '../../components/Header'
+import Heros from './Heros'
+import About from './About'
+import PopularDestinations from './PopularDestinations'
+
 const Home = () => {
     return <>
-    <h1>Home page</h1>
+    <Heros/>
+    <About/>
+    <PopularDestinations/>
     </>
 }
 

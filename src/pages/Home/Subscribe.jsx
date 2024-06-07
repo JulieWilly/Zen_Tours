@@ -9,8 +9,10 @@ const SubscribeStrcuture = ({subImg, subTitle}) => {
           </div>
           <div className="subsribeInputs">
             <h2>{subTitle}</h2>
-            <input type="email"  placeholder='Email Address' />
-            <button>Subsribe</button>
+            <div className="inputEmail">
+              <input type="email" placeholder="Email Address" />
+              <button>Subsribe</button>
+            </div>
           </div>
         </div>
       </>
@@ -20,10 +22,10 @@ const SubscribeStrcuture = ({subImg, subTitle}) => {
 const Subscribe = () => {
     return (
       <>
-        <div className="subsribeSect">
+        <div className="subsribe_sect">
           <SubscribeStrcuture
             subImg={mtZuweri}
-            subTitle={"Get special offers, and more from travelworld"}
+            subTitle={"Get special offers, and more from travel world"}
           />
         </div>
       </>

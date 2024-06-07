@@ -5,6 +5,7 @@ import Header from '../../components/Header'
 import PopularDestinations from './PopularDestinations'
 import Testimonials from './Testimonials'
 import Subscribe from "./Subscribe";
+import Footer from '../../components/Footer'
 
 
 const Home = () => {
@@ -14,6 +15,7 @@ const Home = () => {
     <PopularDestinations/>
     <Testimonials/>
     <Subscribe />
+    <Footer/>
     </>
 }
 

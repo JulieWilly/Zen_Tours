@@ -299,13 +299,12 @@
 }
 .subscribeSect {
     border: 1px solid black;
-    margin-top: 5rem;
     display: flex;
     width: 80%;
     flex-direction: row;
     border-radius: 1rem;
     overflow: hidden;
-    margin-bottom: 5rem;
+    transform: translateY(8rem);
 }
 
 .subsribeInputs {

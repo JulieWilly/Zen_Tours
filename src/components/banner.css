@@ -1,0 +1,61 @@
+
+
+
+.destinations{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.destinations .destImages{
+    display: flex;
+    border: 2px solid red;
+    gap: 2rem; 
+    height: auto;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    width: 17rem;
+    gap: 2rem 1rem;
+}
+.left img{
+    width: 100%;
+    height: 13rem;
+    border-radius: .5rem;
+}
+.right{
+    width: 17rem;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    gap: 2rem 1rem;
+}
+.right img {
+    border-radius: .5rem;
+    height: 13rem;
+}
+
+.destTitle h1{
+    display: flex;
+    align-items: center;
+}
+.destTitle h1 p .icon{
+    margin-top: .5rem;
+    fill: white;
+}
+
+.destTitle p{
+    padding: 1rem 0;
+    letter-spacing: .05rem;
+}
+
+.seeMore{
+    margin-top: 3rem;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+.seeMore .icon{
+    margin-bottom: -.2rem;
+    fill: white;
+}

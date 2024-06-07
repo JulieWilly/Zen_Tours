@@ -1,10 +1,14 @@
 import './header.css'
 
-const TitleTag = ({title}) => {
-    return <>
-    <div className="title">
-        <h1>{title}</h1>
-        </div></>
+const TitleTag = ({title, description}) => {
+    return (
+      <>
+        <div className="title">
+          <h1>{title}</h1>
+          <p>{description}</p>
+        </div>
+      </>
+    );
 }
 
 export default TitleTag;

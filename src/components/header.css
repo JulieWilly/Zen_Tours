@@ -64,12 +64,13 @@
     text-decoration: none;
     color: black;
 }
-
+    
 .title{
     display: flex;
     flex-direction: column;
     align-items: start;
     padding: .5rem 0;
+    color: white;   
 }
 
 .title p{

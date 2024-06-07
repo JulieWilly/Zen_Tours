@@ -3,13 +3,17 @@ import Heros from './Heros'
 import About from './About'
 import Header from '../../components/Header'
 import PopularDestinations from './PopularDestinations'
+import Testimonials from './Testimonials'
+import Subscribe from "./Subscribe";
+
 
 const Home = () => {
     return <>
     <Heros/>
-    {/* <Header/> */}
     <About/>
     <PopularDestinations/>
+    <Testimonials/>
+    <Subscribe />
     </>
 }
 

@@ -220,9 +220,76 @@
 }
 
 .prices {
-    border: 1px solid red;
     border-radius: .2rem;
     background-color: blue;
     color: whitesmoke;
     cursor: pointer;
 }
+
+
+
+/*################   TEstimonials Section ##################3*/
+
+.testmonialsSect {
+    margin-top: 2rem;
+    display: flex;
+    width: 100%;
+    padding: .5rem;
+    gap: 1rem;
+}
+
+.testimonials {
+    border: 2px solid black;
+    width: 20rem;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+.testimonials .img{
+    top: -3.5rem;
+    position: absolute;
+    width: 7rem;
+    height: 7rem;
+    left: 2rem;
+}
+.testimonials .testImg {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.cust_details {
+    margin-top: 3rem;
+}
+.cust_details {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cust_details div p{
+    padding: .5rem 0;
+}
+.testimonials .custDesc{
+    padding: 0;
+    margin-top: 1rem;
+}
+.checked {
+    color: orange;
+}
+
+.custReviews {
+    position: relative;
+    height: 90vh;
+}
+.layon{
+    position: absolute;
+    top: 15%;
+}
+
+
+
+/*#######################   SUBSCRIBE SECTION ############*/
+
+Get special offers, and more from travelworld

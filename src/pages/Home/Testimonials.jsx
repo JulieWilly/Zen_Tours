@@ -21,14 +21,13 @@ const TestimonialsStructure = ({
             <h3>{custName}</h3>
             <p>{custOccupation}</p>
           </div>
-          {/* <div className="ratings">
-              <span class="fa fa-star checked"></span>
-              <span class="fa fa-star checked"></span>
-              <span class="fa fa-star checked"></span>
-              <span class="fa fa-star"></span>
-              <span class="fa fa-star"></span>
-            </div> */}
-          <p>{custReviews}</p>
+          <div className="ratings">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+          </div>
         </div>
         <p className="custDesc">{custDesc}</p>
       </div>

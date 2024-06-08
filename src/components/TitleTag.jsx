@@ -9,6 +9,7 @@ const TitleTag = ({ title, description }) => {
       </div>
     </>
   );
+
 };
 
 export default TitleTag;

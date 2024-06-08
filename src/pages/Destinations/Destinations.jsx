@@ -8,8 +8,11 @@ const Destinations = () => {
   return (
     <>
       <Banner />
-      <TitleTag title={"Higly rated destinations"} />
-      <Places />
+      <div className="destinations_Sect">
+        <TitleTag title={"Higly rated destinations"} description={'See more destinations and places we conduct travels to and the favourable pricing enlisted.'} />
+
+        <Places />
+      </div>
       <Footer />
     </>
   );

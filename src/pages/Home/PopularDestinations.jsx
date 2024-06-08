@@ -1,7 +1,6 @@
 import "./home.css";
 import TitleTag from "../../components/TitleTag";
 import { FaArrowRightLong } from "react-icons/fa6";
-import mtKenyaImg from "../../assets/mt_kenya.jpg";
 import popularDestinations from "../../data/PopularDestinations";
 const Popular = ({ destImg, destTitle, destDesc, destPrices }) => {
   return (

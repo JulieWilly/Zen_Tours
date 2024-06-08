@@ -1,23 +1,22 @@
 import "./destinations.css";
 import mtZuweri from "../../assets/mt_zuweri.jpg";
-const PlacesStructure = () => {
+import otherDestinations from "../../data/OtherDestinations";
+const PlacesStructure = ({placeImg, placeName,placeDesc, costPerGroup, costPerIndividual}) => {
   return (
     <>
       <div className="places_cards">
         <div className="placeIg">
-          <img src={mtZuweri} alt="" />
+          <img src={placeImg} alt="" />
         </div>
         <div className="place_description">
-          <h3>Muranga</h3>
+          <h3>{placeName}</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-            facere soluta nemo numquam non impedit molestias veritatis. Fugiat
-            tempora dolor ex dolore vitae laudantium. Excepturi eum assumenda
-            provident natus voluptas.
+            {placeDesc}
+        
           </p>
           <div className="placePrices">
-            <p className="price">Ksh. 1,200/group</p>
-            <p className="price">Ksh. 500/Individual</p>
+            <p className="price">{costPerGroup}</p>
+            <p className="price">{costPerIndividual}</p>
           </div>
           <p>
             <i className="learn_more">Learn more.&rarr;</i>
@@ -31,7 +30,9 @@ const Places = () => {
   return (
     <>
       <div className="places">
-        <PlacesStructure />
+        {otherDestinations.map((other, i) => (
+          <PlacesStructure placeImg={other.image} placeName={other.place_name} placeDesc={other.place_desc} costPerGroup={other.cost_per_group} costPerIndividual={other.const_per_individual} />
+        ))}
       </div>
     </>
   );

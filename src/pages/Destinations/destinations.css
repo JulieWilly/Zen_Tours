@@ -1,7 +1,14 @@
+.destinations_Sect{
+  margin-right: 2rem;
+  margin-left: 2rem;
+  margin-bottom: 1rem;
+}
+
 .places {
-  border: 2px solid black;
-  padding: 0.5rem;
-  margin-top: 9rem;
+  display: flex;
+  gap: 2rem;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .places_cards {
@@ -10,6 +17,11 @@
   box-shadow: 5px 5px 5px black;
   background-color: white;
   border-radius: 0.5rem;
+  margin-top: 10rem;
+}
+.places_cards:hover{
+  transform: translateX(1rem);
+  transition: 1s ease-in-out all;
 }
 
 .places_cards .placeIg {

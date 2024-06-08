@@ -14,13 +14,15 @@ const BannerStructure = ({
   return (
     <>
       <div className="destinations">
-        <div className="left">
-          <img src={destImg1} alt="" />
-          <img src={destImg2} alt="" />
-        </div>
-        <div className="right">
-          <img className="img1" src={destImg3} alt="" />
-          <img className="img1" src={destImg4} alt="" />
+        <div className="leftPart">
+          <div className="left">
+            <img src={destImg1} alt="" />
+            <img src={destImg2} alt="" />
+          </div>
+          <div className="right">
+            <img className="img1" src={destImg3} alt="" />
+            <img className="img1" src={destImg4} alt="" />
+          </div>
         </div>
 
         <div className="destTitle">
@@ -47,7 +49,7 @@ const Banner = () => {
           destLink1={"Home"}
           destLink2={"Destinations"}
           destDescription={
-            "dkldklsdklsdkldsdjklsdjklsdjklsdjklddjklljksdjklsdjklsdsdjklsdjklsdjkl"
+            "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
           }
         />
       </div>

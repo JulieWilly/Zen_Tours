@@ -4,9 +4,14 @@
   overflow: hidden;
 }
 
+.types_of_trips{
+  margin-right: 2rem;
+  margin-left: 2rem;
+}
 .tripsSect {
   margin-top: 1rem;
   margin-bottom: 2rem;
+ 
 }
 .trips {
   position: relative;
@@ -44,18 +49,19 @@
 }
 
 .tripsDestinations {
-  border: 2px solid black;
   margin-top: 2rem;
-  height: 100vh;
-  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 .viewPakages {
   margin-top: 2rem;
   border: 2px solid black;
 }
 .tripsPackages {
-  border: 2px solid black;
-  width: 23%;
+  width: 22rem;
   height: 25rem;
   padding: 0.5rem;
   border-radius: 0.5rem;
@@ -64,6 +70,7 @@
 }
 .tripsPackages .packImg {
   height: 100%;
+
 }
 
 .packDetails h3 {
@@ -100,4 +107,34 @@
 }
 .packDetails .view_moreBtn {
   float: right;
+}
+
+
+
+/*########### Trips media querries ############*/
+@media screen and (max-width:600px) {
+  .trips{
+    display: flex;
+    flex-direction: column;
+  }
+  .tripsImg {
+    width: 90%;
+  }
+ 
+  .tripsDestinations{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+}
+
+@media screen and (min-width:601px) and (max-width:850px) {
+  .trips {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .tripsImg {
+      width: 90%;
+    }
 }

@@ -1,10 +1,9 @@
 import "./trips.css";
 import tripsImg from "../../assets/testimonials.jpg";
-import { MdNavigateNext } from "react-icons/md";
 import TitleTag from "../../components/TitleTag";
 import TripsBanner from "./TripsBanner";
-
-
+import trips from "../../data/Trips";
+import Footer from '../../components/Footer'
 
 const TripsStructure = ({
   packageImg,
@@ -43,23 +42,27 @@ const Trips = () => {
           }
         />
       </div>
-      <TitleTag
-        className="viewPakages"
-        title={"View our trips packages and offers"}
-        description={
-          "lordsjsdjklsdkljsdjklsdjklsdjklsdjksdjkldslsdjlljkdsklsdklsdjklsdjlsdjkldsjkldsjklsdjklsdsjkldjdklssdjkl"
-        }
-      />
-      <div className="tripsDestinations">
-        <TripsStructure
-          packageImg={tripsImg}
-          packageName={"Honeymoon"}
-          packageDesc={
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid facere soluta."
+      <div className="types_of_trips">
+        <TitleTag
+          className="viewPakages"
+          title={"View our trips packages and offers"}
+          description={
+            "lordsjsdjklsdkljsdjklsdjklsdjklsdjksdjkldslsdjlljkdsklsdklsdjklsdjlsdjkldsjkldsjklsdjklsdsjkldjdklssdjkl"
           }
-          packagePrice={"Ksh. 12,000"}
         />
+        <div className="tripsDestinations">
+          {trips.map((trips, s) => (
+            <TripsStructure
+              packageName={trips.package_title}
+              packageImg={trips.packageImage}
+              packageDesc={trips.package_desc}
+              packagePrice={trips.package_price}
+            />
+          ))}
+        </div>
       </div>
+
+      <Footer/>
     </>
   );
 };

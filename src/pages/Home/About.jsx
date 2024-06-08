@@ -1,4 +1,4 @@
-import aboutImg from "../../assets/aboutImg1.jpg";
+import aboutImg from "../../assets/aboutImg.jpg";
 import { FaAward } from "react-icons/fa6";
 import { FaArrowRightLong } from "react-icons/fa6";
 import { IoMdPricetags } from "react-icons/io";

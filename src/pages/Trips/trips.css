@@ -69,6 +69,9 @@
 }
 .tripsPackages .packImg {
   height: 100%;
+  display:block;
+  object-fit: contain;
+
 }
 
 .packDetails h3 {

@@ -2,6 +2,11 @@ import "./banner.css";
 import { MdOutlineNavigateNext } from "react-icons/md";
 import destImg1 from "../../src/assets/mt_zuweri.jpg";
 import { FaAngleDown } from "react-icons/fa";
+import lk_nakuru from "../../src/assets/lk_nakuru.jpg";
+import tsavoImg from "../../src/assets/tsavo.jpg";
+import coast from "../../src/assets/coast.jpg";
+import nairobi from "../../src/assets/nairobi.jpg";
+
 const BannerStructure = ({
   destImg1,
   destImg2,
@@ -42,10 +47,10 @@ const Banner = () => {
     <>
       <div className="destinationsSect">
         <BannerStructure
-          destImg1={destImg1}
-          destImg2={destImg1}
-          destImg3={destImg1}
-          destImg4={destImg1}
+          destImg1={lk_nakuru}
+          destImg2={coast}
+          destImg3={tsavoImg}
+          destImg4={nairobi}
           destLink1={"Home"}
           destLink2={"Destinations"}
           destDescription={

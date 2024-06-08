@@ -1,8 +1,109 @@
-.contactsUsSect{
-    margin-top: 1rem;
+.contactsUsSect {
+  margin-top: 1rem;
 }
 
-.bottomSect{
-    border: 2px solid black;
-    margin-top: 2rem;
+.contactsTop {
+  display: flex;
+  gap: 2rem;
+}
+
+.talkWithUsSect {
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+}
+.contactsTop form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+.contactsTop form h3 {
+  padding: 0.5rem;
+}
+
+.contactsTop form input,
+textarea {
+  width: 20rem;
+  outline: none;
+  height: 2.5rem;
+  border-radius: 0.3rem;
+  border: none;
+  padding-inline-start: 0.5rem;
+  background: transparent;
+  border: 1px solid black;
+  border-bottom: 3px solid black;
+  color: black;
+}
+
+.contactsTop form button {
+  padding: 0.8rem 1.3rem;
+  border-radius: 0.3rem;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-top: 2rem;
+}
+.talkWithUs {
+  padding: 2rem;
+  background-color: white;
+  border-radius: 0.5rem;
+  box-shadow: 5px 5px 5px black;
+}
+
+.workingHours {
+  /* width: 45%; */
+  background-color: white;
+  border-radius: 0.5rem;
+  box-shadow: 5px 5px 5px black;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 2rem;
+}
+.workingHours h3 {
+  padding: 0.5rem;
+}
+
+table {
+  text-align: left;
+  padding: 0 0.5rem;
+}
+
+table tr th {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+table tr th .span {
+  font-size: 1.5rem;
+}
+
+.workingHours table tr,
+th,
+td {
+  padding: 1rem;
+}
+
+.locationDetails .map iframe {
+  border-radius: 0.5rem;
+}
+.locationDetails {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+
+.companyContacts h3 {
+  padding: 0.5rem 0;
+  text-align: center;
+}
+
+.companyContacts .ourContacts {
+  margin-top: 3rem;
+  padding: 0.5rem 0;
+}
+
+.ourContacts p {
+  padding: 1rem;
 }

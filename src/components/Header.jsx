@@ -2,11 +2,18 @@ import { FaXTwitter } from "react-icons/fa6";
 import { FaFacebookF } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
-import { Link } from 'react-router-dom'
+import { Link } from "react-router-dom";
 import { MdEmail } from "react-icons/md";
 import { FaPhoneAlt } from "react-icons/fa";
-import './header.css'
-const ContactDetails = ({twitter, facebook, instagram, linkedin,phone,email}) => {
+import "./header.css";
+const ContactDetails = ({
+  twitter,
+  facebook,
+  instagram,
+  linkedin,
+  phone,
+  email,
+}) => {
   return (
     <>
       <div className="contacts">
@@ -59,7 +66,7 @@ const NavLinks = () => {
       </div>
     </>
   );
-}
+};
 const Header = () => {
   return (
     <>
@@ -78,12 +85,11 @@ const Header = () => {
           <div>
             <h1>Zaph Tours</h1>
           </div>
-          <NavLinks/>
+          <NavLinks />
         </div>
       </div>
     </>
   );
 };
-
 
 export default Header;

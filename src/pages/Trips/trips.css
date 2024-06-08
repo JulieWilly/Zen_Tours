@@ -1,101 +1,101 @@
 .tripsImg {
-     border-radius: .5rem;
-    height: 70vh;
-    overflow: hidden;
+  border-radius: 0.5rem;
+  height: 70vh;
+  overflow: hidden;
 }
 
-.tripsSect{margin-top: 1rem; margin-bottom: 2rem;}
-.trips{
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 1rem;
-
-
+.tripsSect {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+.trips {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
 }
 
-.tripsDesc{
-    width: 50%;
-    text-align: center;
+.tripsDesc {
+  width: 50%;
+  text-align: center;
 }
-.tripsImg{
-    width: 50%;
+.tripsImg {
+  width: 50%;
 }
-.tripsDesc h1{
-    padding: .5rem;
+.tripsDesc h1 {
+  padding: 0.5rem;
 }
-.tripsDesc p{
-    line-height: 1.7;
-    text-align: center;
-}
-
-.view_more{
-    margin-top: 4rem;
-    cursor: pointer;
-}
-.view_more:hover{
-    text-decoration: underline;
-    transition: .5s all ease;
-    color: white;
+.tripsDesc p {
+  line-height: 1.7;
+  text-align: center;
 }
 
+.view_more {
+  margin-top: 4rem;
+  cursor: pointer;
+}
+.view_more:hover {
+  text-decoration: underline;
+  transition: 0.5s all ease;
+  color: white;
+}
 
-.tripsDestinations{
-    border: 2px solid black;
-    margin-top: 2rem;
-    height: 100vh;
-    padding: 1rem;
+.tripsDestinations {
+  border: 2px solid black;
+  margin-top: 2rem;
+  height: 100vh;
+  padding: 1rem;
 }
-.viewPakages{
-    margin-top: 2rem;
-    border: 2px solid black;
+.viewPakages {
+  margin-top: 2rem;
+  border: 2px solid black;
 }
-.tripsPackages{
-    border: 2px solid black;
-    width: 23%;
-    height: 25rem;
-    padding: .5rem;
-    border-radius: .5rem;
-    background-color: white;
-    position: relative;
+.tripsPackages {
+  border: 2px solid black;
+  width: 23%;
+  height: 25rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  background-color: white;
+  position: relative;
 }
-.tripsPackages .packImg{
-    height: 100%;
+.tripsPackages .packImg {
+  height: 100%;
 }
 
 .packDetails h3 {
-    padding: .5rem 0;
+  padding: 0.5rem 0;
 }
 
-.packDetails p{
-    padding: 0;
-    line-height: 1.5;
+.packDetails p {
+  padding: 0;
+  line-height: 1.5;
 }
 
-.packDetails button{
-    margin-top: 1rem;
-    padding: .5rem;
-    border-radius: .3rem;
-    border: none;
+.packDetails button {
+  margin-top: 1rem;
+  padding: 0.5rem;
+  border-radius: 0.3rem;
+  border: none;
 }
-.packDetails{
-    position: absolute;
-    bottom: .5rem;
-    background: white;
-    width: 85%;
-    margin-bottom: .5rem;
-    border-radius: .5rem;
-    padding: .5rem;
+.packDetails {
+  position: absolute;
+  bottom: 0.5rem;
+  background: white;
+  width: 85%;
+  margin-bottom: 0.5rem;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
 
-    left: 50%;
-    transform: translateX(-50%);
+  left: 50%;
+  transform: translateX(-50%);
 }
 
-.packImg{
-    border-radius: .5rem;
-    overflow: hidden;
+.packImg {
+  border-radius: 0.5rem;
+  overflow: hidden;
 }
-.packDetails .view_moreBtn{
-    float: right; 
+.packDetails .view_moreBtn {
+  float: right;
 }

@@ -1,14 +1,13 @@
-import { useState } from 'react'
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import Home from '../src/pages/Home/Home'
-import Contact from './pages/Contacts/Contacts'
-import Trips from './pages/Trips/Trips'
-import Destinations from './pages/Destinations/Destinations'
-import Header from './components/Header'
-
+import { useState } from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "../src/pages/Home/Home";
+import Contact from "./pages/Contacts/Contacts";
+import Trips from "./pages/Trips/Trips";
+import Destinations from "./pages/Destinations/Destinations";
+import Header from "./components/Header";
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
 
   return (
     <>
@@ -25,4 +24,4 @@ function App() {
   );
 }
 
-export default App
+export default App;

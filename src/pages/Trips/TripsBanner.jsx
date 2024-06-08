@@ -1,5 +1,4 @@
-import './trips.css'
-
+import "./trips.css";
 
 const TripsBanner = ({ tripImg, tripsTitle, tripsDesc }) => {
   return (
@@ -17,6 +16,6 @@ const TripsBanner = ({ tripImg, tripsTitle, tripsDesc }) => {
       </div>
     </>
   );
-}
+};
 
 export default TripsBanner;

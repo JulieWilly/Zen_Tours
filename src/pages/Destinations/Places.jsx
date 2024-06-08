@@ -1,7 +1,13 @@
 import "./destinations.css";
 import mtZuweri from "../../assets/mt_zuweri.jpg";
 import otherDestinations from "../../data/OtherDestinations";
-const PlacesStructure = ({placeImg, placeName,placeDesc, costPerGroup, costPerIndividual}) => {
+const PlacesStructure = ({
+  placeImg,
+  placeName,
+  placeDesc,
+  costPerGroup,
+  costPerIndividual,
+}) => {
   return (
     <>
       <div className="places_cards">
@@ -10,10 +16,7 @@ const PlacesStructure = ({placeImg, placeName,placeDesc, costPerGroup, costPerIn
         </div>
         <div className="place_description">
           <h3>{placeName}</h3>
-          <p>
-            {placeDesc}
-        
-          </p>
+          <p>{placeDesc}</p>
           <div className="placePrices">
             <p className="price">{costPerGroup}</p>
             <p className="price">{costPerIndividual}</p>
@@ -31,7 +34,13 @@ const Places = () => {
     <>
       <div className="places">
         {otherDestinations.map((other, i) => (
-          <PlacesStructure placeImg={other.image} placeName={other.place_name} placeDesc={other.place_desc} costPerGroup={other.cost_per_group} costPerIndividual={other.const_per_individual} />
+          <PlacesStructure
+            placeImg={other.image}
+            placeName={other.place_name}
+            placeDesc={other.place_desc}
+            costPerGroup={other.cost_per_group}
+            costPerIndividual={other.const_per_individual}
+          />
         ))}
       </div>
     </>

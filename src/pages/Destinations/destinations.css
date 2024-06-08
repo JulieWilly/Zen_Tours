@@ -1,4 +1,4 @@
-.destinations_Sect{
+.destinations_Sect {
   margin-right: 2rem;
   margin-left: 2rem;
   margin-bottom: 1rem;
@@ -19,7 +19,7 @@
   border-radius: 0.5rem;
   margin-top: 10rem;
 }
-.places_cards:hover{
+.places_cards:hover {
   transform: translateX(1rem);
   transition: 1s ease-in-out all;
 }

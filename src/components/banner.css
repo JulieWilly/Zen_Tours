@@ -20,9 +20,9 @@
   height: 13rem;
   border-radius: 0.5rem;
 }
-.left img:hover{
+.left img:hover {
   transform: translateY(-1rem);
-  transition: .5s all ease-in-out;
+  transition: 0.5s all ease-in-out;
 }
 .right {
   display: flex;
@@ -35,9 +35,9 @@
   height: 13rem;
 }
 
-.right img:hover{
+.right img:hover {
   transform: translateY(1rem);
-  transition: .5s ease-in-out all;
+  transition: 0.5s ease-in-out all;
 }
 
 .destTitle {
@@ -45,7 +45,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-
 }
 .destTitle h1 {
   display: flex;
@@ -65,7 +64,7 @@
   font-size: 1rem;
   cursor: pointer;
 }
-.seeMore:hover{
+.seeMore:hover {
   text-decoration: underline;
   color: white;
 }

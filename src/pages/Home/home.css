@@ -5,7 +5,7 @@
   position: relative;
 }
 
-.herosImg{
+.herosImg {
   height: 80vh;
   width: 100%;
 }
@@ -20,7 +20,7 @@
   box-shadow: 10px 10px 50px 2px grey;
   position: absolute;
   left: 50%;
-  transform: translate(-50%, -50% );
+  transform: translate(-50%, -50%);
   top: 75%;
   align-items: center;
   flex-direction: column;
@@ -294,7 +294,6 @@ img {
 }
 .layon {
   position: absolute;
-  
 }
 .checked {
   color: orange;
@@ -318,7 +317,7 @@ img {
   overflow: hidden;
   transform: translateY(8rem);
 }
-.subsribeImg{
+.subsribeImg {
   width: 50%;
 }
 
@@ -361,11 +360,9 @@ img {
   border: none;
 }
 
-
-
 /* ################   Media Queries ############3*/
 
-@media screen and (max-width:600px) {
+@media screen and (max-width: 600px) {
   .heros_description {
     width: 80%;
   }
@@ -373,13 +370,11 @@ img {
     width: 100%;
     
   } */
-
 }
 
-
 /*############   Meadia Queries. #############3*/
-@media screen and (max-width:600px) {
-  .subscribeSect{
+@media screen and (max-width: 600px) {
+  .subscribeSect {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -392,27 +387,27 @@ img {
     width: 70%rem;
     margin-bottom: 1rem;
   }
-    .subsribeInputs .inputEmail input {
-      width: 13rem;
-    }
+  .subsribeInputs .inputEmail input {
+    width: 13rem;
+  }
 }
 
-@media screen and (min-width:601px)and (max-width:910px)  {
+@media screen and (min-width: 601px) and (max-width: 910px) {
   .subsribeInputs .inputEmail {
-      display: flex;
-      width: 70%rem;
-      margin-bottom: 1rem;
-    }
-  
-    .subscribeSect{
-      width: 95%;
-    }
-    .subsribeInputs .inputEmail input {
-      width: 9rem;
-    }
+    display: flex;
+    width: 70%rem;
+    margin-bottom: 1rem;
+  }
+
+  .subscribeSect {
+    width: 95%;
+  }
+  .subsribeInputs .inputEmail input {
+    width: 9rem;
+  }
 }
 
-@media screen and (min-width:911px) {
+@media screen and (min-width: 911px) {
   .subsribeInputs .inputEmail {
     display: flex;
     width: 70%rem;

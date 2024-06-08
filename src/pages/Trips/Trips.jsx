@@ -3,7 +3,7 @@ import tripsImg from "../../assets/testimonials.jpg";
 import TitleTag from "../../components/TitleTag";
 import TripsBanner from "./TripsBanner";
 import trips from "../../data/Trips";
-import Footer from '../../components/Footer'
+import Footer from "../../components/Footer";
 
 const TripsStructure = ({
   packageImg,
@@ -62,7 +62,7 @@ const Trips = () => {
         </div>
       </div>
 
-      <Footer/>
+      <Footer />
     </>
   );
 };

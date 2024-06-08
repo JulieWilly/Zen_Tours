@@ -9,7 +9,12 @@ const Destinations = () => {
     <>
       <Banner />
       <div className="destinations_Sect">
-        <TitleTag title={"Higly rated destinations"} description={'See more destinations and places we conduct travels to and the favourable pricing enlisted.'} />
+        <TitleTag
+          title={"Higly rated destinations"}
+          description={
+            "See more destinations and places we conduct travels to and the favourable pricing enlisted."
+          }
+        />
 
         <Places />
       </div>

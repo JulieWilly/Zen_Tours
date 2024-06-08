@@ -31,7 +31,6 @@ const FooterStructure = ({ title, home, destinations, trips, contacts }) => {
           </Link>
         </div>
         <div className="links">
-         
           <SocialAccount
             twitter={<FaXTwitter />}
             facebook={<FaFacebookF />}
@@ -46,7 +45,14 @@ const FooterStructure = ({ title, home, destinations, trips, contacts }) => {
   );
 };
 
-const SocialAccount = ({twitter, instagram, facebook, linkedin,phone,email}) => {
+const SocialAccount = ({
+  twitter,
+  instagram,
+  facebook,
+  linkedin,
+  phone,
+  email,
+}) => {
   return (
     <>
       <div className="footerContacts">
@@ -82,7 +88,7 @@ const SocialAccount = ({twitter, instagram, facebook, linkedin,phone,email}) => 
       </div>
     </>
   );
-}
+};
 const Footer = () => {
   return (
     <>
@@ -94,7 +100,7 @@ const Footer = () => {
           trips={"Trips"}
           contacts={"Contacts"}
         />
-        
+
         <p>&copy; Wilfred Muchire. All rights reserved.</p>
       </div>
     </>

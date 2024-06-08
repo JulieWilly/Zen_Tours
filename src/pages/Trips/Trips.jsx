@@ -34,6 +34,7 @@ const Trips = () => {
   return (
     <>
       <div className="tripsSect">
+
         <TripsBanner
           tripImg={tripsImg}
           tripsTitle={"Trips"}
@@ -42,6 +43,7 @@ const Trips = () => {
           }
         />
       </div>
+      <hr />
       <div className="types_of_trips">
         <TitleTag
           className="viewPakages"

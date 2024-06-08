@@ -116,13 +116,14 @@ const Contact = () => {
       <div className="contactsUsSect">
         <TripsBanner
           tripImg={tripsImg}
-          tripsTitle={"Trips"}
+          tripsTitle={"Contact us"}
           tripsDesc={
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid facere soluta nemo numquam non impedit molestias veritatis. Fugiat tempora dolor ex dolore vitae laudantium."
           }
         />
       </div>
-      <TitleTag title={"Contact us Section"} />
+      <hr />
+      <TitleTag title={"Contact us or write to us your message below."} />
       <div className="talkWithUsSect">
         <TalkWithUs />
       </div>

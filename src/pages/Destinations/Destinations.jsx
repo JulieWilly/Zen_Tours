@@ -8,6 +8,7 @@ const Destinations = () => {
   return (
     <>
       <Banner />
+      <hr />
       <div className="destinations_Sect">
         <TitleTag
           title={"Higly rated destinations"}

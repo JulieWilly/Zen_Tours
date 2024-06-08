@@ -72,3 +72,14 @@
 .seeMore .icon {
   margin-bottom: -0.2rem;
 }
+
+
+@media screen and (max-width:600px){
+  .left {
+    margin-left: .5rem;
+  }
+  .right{
+    margin-right: .5rem;
+  }
+  
+}

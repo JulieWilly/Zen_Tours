@@ -1,0 +1,47 @@
+.places {
+    border: 2px solid black;
+    padding: .5rem;
+    margin-top: 9rem;
+}
+
+.places_cards {
+    width: 18rem;
+    padding: 0.5rem ;
+    box-shadow: 5px 5px 5px black;
+    background-color: white;
+    border-radius: .5rem;
+}
+
+.places_cards .placeIg{
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    overflow: hidden;
+    height: 15rem;
+    margin-top: -50%;
+}
+.place_description {
+    position: relative;
+    padding: 0 .5rem;
+
+}
+.place_description h3{
+    padding-top: .5rem;
+}
+
+.place_description p{
+    padding: 0.5rem 0
+}
+
+.price {
+    border: 2px solid black;
+    text-align: center;
+    background-color: aqua;
+    margin:.5rem 0;
+    border-radius: .5rem;
+    width: 8.3rem;
+    border: none;
+}
+
+.learn_more{
+    cursor: pointer;
+}

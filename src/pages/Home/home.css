@@ -85,18 +85,22 @@ p {
 
 /*############## About sections ################*/
 .about_sect {
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   position: relative;
-  margin-top: 2rem;
-  /* border: 2px solid red; */
+  margin-top: 5rem;
+  margin-bottom: 5rem;
 }
 
 .about_sect .aboutImg {
   height: 80vh;
   width: 100%;
+  display: block;
+  object-fit: contain;
+  aspect-ratio: 16/7;
 }
 .about_sect .aboutImg img {
   width: 100%;
@@ -109,9 +113,12 @@ p {
   flex-direction: row;
   margin-bottom: 2rem;
   position: absolute;
-  margin-top: 20rem;
+  top: 60%;
 }
 
+.caro{
+  background-color: white;
+}
 .services {
   background-color: white;
   padding: 0.5rem;
@@ -121,7 +128,6 @@ p {
   display: flex;
   flex-direction: column;
   box-shadow: 2px 4px 2px black;
-  align-items: start;
 }
 .services i {
   font-size: 2.5rem;
@@ -243,24 +249,39 @@ img {
 .testmonialsSect {
   margin-top: 2rem;
   display: flex;
-  width: 100%;
   padding: 0.5rem;
-  gap: 1rem;
+  align-items: center;
+  margin-bottom: 2rem;
+
 }
 
+
+
+
 .testimonials {
-  width: 20rem;
+  position: relative;
+  width: 18rem;
+  margin-top: 3.5rem;
   padding: 1.5rem;
   border-radius: 1rem;
-  position: relative;
+  gap: 1rem;
   display: flex;
   flex-direction: column;
   background-color: white;
+
 }
+
+.carousel{
+  z-index: 1;
+  margin-top: 2rem;
+  width: 100%;
+}
+
 .testimonials .img {
   top: -3.5rem;
   position: absolute;
   width: 7rem;
+  z-index: 100;
   height: 7rem;
   left: 2rem;
 }
@@ -268,6 +289,7 @@ img {
   width: 100%;
   height: 100%;
   border-radius: 50%;
+  display: block;
 }
 .cust_details {
   margin-top: 3rem;
@@ -297,12 +319,15 @@ img {
   flex-direction: column;
   justify-content: center;
 }
+
 .layon {
   position: absolute;
+  width: 90%;
 }
 .checked {
   color: orange;
 }
+
 
 /*#######################   SUBSCRIBE SECTION ############*/
 .subsribe_sect {
@@ -393,8 +418,46 @@ img {
     margin-bottom: 1rem;
   }
   .subsribeInputs .inputEmail input {
-    width: 13rem;
+    width: 10rem;
   }
+  .testmonialsSect{
+    display: flex;
+    flex-direction: row;
+    margin: 0 2rem;
+
+    align-items: center;
+    justify-content: center;
+  }
+    .testimonials {
+      width: 17rem;
+    }
+        .about_sect{
+          margin-top: 8rem;
+        }
+
+        .aboutImg img{
+          display: none;
+        }
+    .about_desc_1{
+      top: 0;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      margin-top: -15rem;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+    }
+    .about_sect{
+      display: flex;
+      align-items: start;
+    }
+  
+      .popular_sect{
+          margin-top: 29rem;
+        }
+  
+    
 }
 
 @media screen and (min-width: 601px) and (max-width: 910px) {
@@ -410,6 +473,45 @@ img {
   .subsribeInputs .inputEmail input {
     width: 9rem;
   }
+    .testmonialsSect {
+      display: flex;
+      flex-direction: column ;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .testimonials{
+      width: 17rem;
+    }
+
+         .about_sect {
+           margin-top: 8rem;
+         }
+    
+         .aboutImg img {
+           display: none;
+         }
+    
+         .about_desc_1 {
+           top: 0;
+           display: flex;
+           flex-wrap: wrap;
+           flex-direction: column;
+           margin-top: -15rem;
+           align-items: center;
+           justify-content: center;
+           height: 100%;
+         }
+    
+         .about_sect {
+           display: flex;
+           align-items: start;
+         }
+    
+         .popular_sect {
+           margin-top: 29rem;
+         }
+  
 }
 
 @media screen and (min-width: 911px) {

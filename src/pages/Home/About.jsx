@@ -4,23 +4,29 @@ import { FaArrowRightLong } from "react-icons/fa6";
 import { IoMdPricetags } from "react-icons/io";
 import { BiSolidOffer } from "react-icons/bi";
 import TitleTag from "../../components/TitleTag";
+import "react-multi-carousel/lib/styles.css";
 import "./home.css";
-const About = () => {
+import aboutData from "../../data/about";
+
+const AboutImg =() => {
   return (
     <>
-      <div className="about_sect">
-        <TitleTag title="About" />
-
-        <div className="aboutImg">
-          <img src={aboutImg} alt="" />
-        </div>
+      <div className="aboutImg">
+        <img src={aboutImg} alt="" />
+      </div>
+    </>
+  );
+}
+const AboutStructure =({abtIcon, abtTitle, abtDesc}) => {
+  return (
+    <>
+      
         <div className="about_desc_1">
           <div className="services">
-            <i>{<FaAward />}</i>
-            <h3>Best Services</h3>
+            <i>{abtIcon}</i>
+            <h3>{abtTitle}</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Recusandae eaque accusantium aut corporis repellat laudantium.
+              {abtDesc}
             </p>
             <p className="learn_more">
               Learn more
@@ -52,7 +58,44 @@ const About = () => {
             </p>
           </div>
         </div>
-      </div>
+
+    </>
+  );
+}
+ 
+const About = () => {
+ const responsive = {
+   superLargeDesktop: {
+     // the naming can be any, depends on you.
+     breakpoint: { max: 4000, min: 900 },
+     items: 3,
+   },
+   desktop: {
+     breakpoint: { max: 910, min: 600 },
+     items: 2,
+   },
+   tablet: {
+     breakpoint: { max: 600, min: 464 },
+     items: 1,
+   },
+   mobile: {
+     breakpoint: { max: 464, min: 0 },
+     items: 1,
+   },
+ };
+
+  return (
+    <>
+    <div className="about_sect">
+      <TitleTag className='title' title="About" description={'Get to learn more about our organization and how we work to ensure your'} />
+      <AboutImg/>
+      {
+        aboutData.map((about, i) => 
+        <AboutStructure abtIcon={<FaAward/>} abtTitle={about.aboutTitle} abtDesc={about.aboutDesc}/>
+        )
+      }
+    </div>
+      
     </>
   );
 };

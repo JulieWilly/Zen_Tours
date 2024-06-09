@@ -4,10 +4,8 @@
   box-sizing: 0;
 }
 body {
-  /**/
   overflow-x: hidden;
   background-color: #5ea3de;
-  border: 2px solid red;
 }
 
 /* :root {

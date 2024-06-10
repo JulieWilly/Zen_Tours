@@ -191,5 +191,12 @@ i {
   .navLinks{
     padding: .5rem;
   }
+    .title {
+      display: flex;
+      align-items: center;
+    }
+  .title p{
+    text-align: center;
+  }
 
 }

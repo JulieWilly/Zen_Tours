@@ -122,7 +122,6 @@ i {
   text-align: center;
 }
 .footerSection {
-  /* background-color: black; */
   display: flex;
   margin-top: 8rem;
   flex-wrap: wrap;
@@ -137,6 +136,9 @@ i {
   color: black;
 }
 
+.socials{
+  cursor: pointer;
+}
 .links h3 {
   margin-bottom: 1rem;
 }

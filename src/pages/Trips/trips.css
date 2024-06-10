@@ -2,6 +2,14 @@
   border-radius: 0.5rem;
   height: 70vh;
   overflow: hidden;
+  position: relative;
+  
+}
+.tripsImg img:hover{
+  transform: scale(1.1) rotate(-2deg);
+  transition: transform ease-in-out .5s;
+    transform-origin: center;
+
 }
 
 .types_of_trips {
@@ -60,17 +68,21 @@
   border: 2px solid black;
 }
 .tripsPackages {
-  width: 22rem;
-  height: 25rem;
+  width: 23rem;
+  height: 23rem;
   padding: 0.5rem;
   border-radius: 0.5rem;
   background-color: white;
   position: relative;
+  margin-bottom: 2rem;
 }
 .tripsPackages .packImg {
   height: 100%;
   display:block;
   object-fit: contain;
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s ease;
 
 }
 
@@ -83,25 +95,34 @@
   line-height: 1.5;
 }
 
+
 .packDetails button {
   margin-top: 1rem;
   padding: 0.5rem;
   border-radius: 0.3rem;
   border: none;
+  background-color:#5ea3de;
+  color: white;
 }
 .packDetails {
   position: absolute;
   bottom: 0.5rem;
   background: white;
   width: 85%;
+  height: 2rem;
   margin-bottom: 0.5rem;
   border-radius: 0.5rem;
+  overflow: hidden;
   padding: 0.5rem;
-
   left: 50%;
   transform: translateX(-50%);
 }
 
+.packDetails:hover{
+  height: auto;
+  opacity: 1;
+  transition: all ease-in-out 1s;
+}
 .packImg {
   border-radius: 0.5rem;
   overflow: hidden;

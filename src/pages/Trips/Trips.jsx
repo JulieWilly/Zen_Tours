@@ -34,7 +34,6 @@ const Trips = () => {
   return (
     <>
       <div className="tripsSect">
-
         <TripsBanner
           tripImg={tripsImg}
           tripsTitle={"Trips"}
@@ -49,7 +48,7 @@ const Trips = () => {
           className="viewPakages"
           title={"View our trips packages and offers"}
           description={
-            "lordsjsdjklsdkljsdjklsdjklsdjklsdjksdjkldslsdjlljkdsklsdklsdjklsdjlsdjkldsjkldsjklsdjklsdsjkldjdklssdjkl"
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid facere soluta nemo numquam non impedit molestias veritatis. Fugiat tempora dolor ex dolore vitae laudantium."
           }
         />
         <div className="tripsDestinations">

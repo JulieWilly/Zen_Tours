@@ -78,6 +78,22 @@ i {
 .navLinks ul li .link {
   text-decoration: none;
   color: black;
+  display: inline-block;
+  position: relative;
+  padding-bottom: .2rem;
+}
+.navLinks ul li .link::after{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: .1rem;
+  background-color: white;
+  transition: width 0.3s ease-in-out;
+}
+.navLinks ul li .link:hover::after{
+  width: 100%;
 }
 
 .title {

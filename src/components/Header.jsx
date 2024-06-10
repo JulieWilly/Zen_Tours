@@ -35,6 +35,7 @@ const NavLinks = () => {
           </li>
         </ul>
       </div>
+    
     </>
   );
 };
